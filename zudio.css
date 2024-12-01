@@ -1,0 +1,371 @@
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav,ul,li,header,h1{
+    display: flex;
+}
+header{
+    margin-top: 2%;
+    font-size: 2.1em;
+    margin-left: 10%;
+}
+ul{
+    margin-top: 4%;
+    margin-left: 15%;
+    cursor: pointer;
+}
+ul .hover1,.hover2,.hover3{
+    font-size: 1.2em;
+    margin-right:15%;
+    margin-bottom: 10%;
+}
+ul .hover1 a,.hover2 a,.hover3 a{
+    text-decoration: none;
+}
+ul .hover1 a, .hover3 a{
+    color: grey;
+}
+ul .hover2 a{
+    color: black;
+}
+ul .hover2 {
+    background-color: rgba(83, 81, 82, 0.178);
+    color: black;
+    border-radius: 6px;
+    margin-bottom: 13px;
+    padding: 1px 15px;
+    transition: 0.2s;
+}
+ul .hover2:hover{
+    background-color: rgba(46, 7, 46, 0.308);
+    color: rgba(0, 0, 0, 0.699);
+    border-radius: 6px;
+    margin-bottom: 13px;
+    padding: 1px 15px;
+
+}
+ul .Search{
+    position: absolute;
+    left: 65%;
+    top: 8%;
+}
+ul .Search input{
+    border-radius: 50px;
+    padding: 7px;
+    margin-bottom: 13px;
+    border: 2px solid black;
+}
+ul .one{
+   position: absolute;
+   left:80%;
+   top: 8%;
+}
+ul .two{
+    position: absolute;
+    left: 84%;
+    top: 8%;
+}
+.container .image1{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.container .image1 img{
+    border: 5px solid gainsboro;
+}
+.three{
+    position: absolute;
+    top: 84%;
+    left:22%
+}
+.four{
+    position: absolute;
+    top: 84%;
+    left:28%
+}
+.five{
+    position: absolute;
+    top: 84%;
+    left:34%
+}
+.six{
+    position: absolute;
+    top: 84%;
+    left:40%
+}
+.three:hover{
+    position: absolute;
+    left:20%;
+    top:23%;
+    width: 370px;
+    height: 370px;
+}
+.four:hover{
+    position: absolute;
+    left:20%;
+    top: 23%;
+    width: 370px;
+    height: 370px;
+}
+.five:hover{
+    position: absolute;
+    left:20%;
+    top: 23%;
+    width: 370px;
+    height: 370px;
+}
+.six:hover{
+    position: absolute;
+    left:20%;
+    top: 22.5%;
+    width: 370px;
+    height: 370px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content h3{
+    top: 25%;
+    left: 50%;
+    font-size: 1.5em;
+    width: 390px;
+    height: 400px;
+    position: absolute;
+}
+.content p{
+    position: absolute;
+    top:43%;
+    left: 50%;
+    width: 390px;
+    height: 400px;
+    font-size: 0.7em;
+}
+.content .seven{
+    position: absolute;
+    top:62%;
+    left: 50%;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 390px;
+    height: 400px;
+}
+.content form{
+    position: absolute;
+    top:69%;
+    left: 49.5%;
+}
+.content #button1{
+    padding: 15px 30px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 1em;
+    border: 3px solid gainsboro;
+    background-color: black;
+}
+.content #button2{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: 3px solid gainsboro;
+}
+.content #button1:hover{
+    background-color: transparent;
+    border: 2px solid rgba(177, 177, 13, 0.822);
+    color: rgb(108, 161, 2);
+}
+.content #button2:hover{
+    background-color: transparent;
+    border: 2px solid rgba(177, 177, 13, 0.822);
+    color: rgb(108, 161, 2);
+}
+@media screen and (max-width:800px) {
+    header{
+        margin-left: 8%;
+        margin-top: 4%;
+    }
+    ul{
+        margin-left: 8%;
+        margin-top: 7%;
+    }
+    ul .hover1,.hover2,.hover3{
+        margin-right: 5%;
+    }
+    ul .Search{
+        top: 7.8%;
+        left: 70%;
+    }
+    ul .Search input{
+        width: 70%;
+        padding: 5%;
+    }
+    ul .one{
+        left: 87%;
+        top: 8.3%;
+    }
+    ul .two{
+        left: 93%;
+        top: 8.3%;
+    }
+    .container .image1{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .three{
+        top: 84%;
+        left:15%
+    }
+    .four{
+        top: 84%;
+        left:25%
+    }
+    .five{
+        top: 84%;
+        left:35%
+    }
+    .six{
+        top: 84%;
+        left:45%
+    }
+    .three:hover{
+        left:10%;
+        top:23%;
+    }
+    .four:hover{
+        left:10%;
+        top: 23%;
+    }
+    .five:hover{
+        left:10%;
+        top: 23%;
+    }
+    .six:hover{
+        left:10%;
+        top: 23%;
+    }
+    .content h3{
+        top: 24%;
+        left: 59%;
+        font-size: 1.3em;
+        width: 310px;
+        height: 310px;
+
+    }
+    .content p{
+        top:40%;
+        left: 59%;
+        width: 300px;
+        height: 310px;
+    }
+    .content .seven{
+        top:65%;
+        left: 59%;
+    }
+    .content form{
+        top:72%;
+        left: 58.5%;
+    }
+    .content #button1{
+        margin-right: 5px;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    .content #button2{
+        padding: 10px;
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:640px) {
+    header{
+        margin-left: 7%;
+        font-size: 1.9em;
+        margin-top: 4%;
+    }
+    ul{
+        margin-left: 8%;
+        margin-top: 7.8%;
+        font-size: 0.9em;
+    }
+    ul .hover1,.hover2,.hover3{
+        margin-right: 5%;
+    }
+    ul .Search{
+        top: 7%;
+        left: 75%;
+    }
+    ul .Search input{
+        width: 80%;
+        padding: 5%;
+    }
+    ul .one{
+        left: 97%;
+        top: 7%;
+    }
+    ul .two{
+        left: 105%;
+        top: 7%;
+    }
+    .container .image1{
+        margin-top: 7%;
+        margin-left: 29%;
+    }
+    .three{
+        top: 85%;
+        left:35%
+    }
+    .four{
+        top: 85%;
+        left:47%
+    }
+    .five{
+        top: 85%;
+        left:59%
+    }
+    .six{
+        top: 85%;
+        left:70%
+    }
+    .three:hover{
+        left:29%;
+        top:21.5%;
+    }
+    .four:hover{
+        left:29%;
+        top: 21.5%;
+    }
+    .five:hover{
+        left:29%;
+        top: 21.5%;
+    }
+    .six:hover{
+        left:29%;
+        top: 21.5%;
+    }
+    .content h3{
+        top: 100%;
+        left: 25%;
+        font-size: 1.3em;
+        width: 500px;
+        height: 470px;
+
+    }
+    .content p{
+        top:112%;
+        left: 26%;
+        width: 500px;
+        height: 470px;
+    }
+    .content .seven{
+        top:130%;
+        left: 52%;
+    }
+    .content form{
+        top:139%;
+        left: 47%;
+    }
+}
